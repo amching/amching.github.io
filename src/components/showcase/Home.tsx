@@ -17,7 +17,7 @@ const Home: React.FC<HomeProps> = (props) => {
         <div style={styles.page}>
             <div style={styles.header}>
                 <h1 style={styles.name}>Wenching</h1>
-                <h2>Software Engineer</h2>
+                <h3>Project Manager & FE Developer</h3>
             </div>
             <div style={styles.buttons}>
                 <Link containerStyle={styles.link} to="about" text="ABOUT" />
@@ -28,8 +28,8 @@ const Home: React.FC<HomeProps> = (props) => {
                 />
                 <Link
                     containerStyle={styles.link}
-                    to="projects"
-                    text="PROJECTS"
+                    to="blog"
+                    text="BLOG"
                 />
                 <Link
                     containerStyle={styles.link}
