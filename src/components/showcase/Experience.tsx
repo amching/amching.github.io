@@ -33,19 +33,13 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br />
                 <ul>
                     <li>
-                        <p>
-                            - 在公司传统业务转型升级的背景下, 借鉴互联网知识付费行业的经验, 和团队一起先后完成公司官网改造以及APP版本迭 代、功能更新事宜;
-                        </p>
+                        <p>在公司传统业务转型升级的背景下, 借鉴互联网知识付费行业的经验, 和团队一起先后完成公司官网改造以及APP版本迭 代、功能更新事宜;</p>
                     </li>
                     <li>
-                        <p>
-                            - 与不同部门的运营负责人对接, 商议需求, 整理需求, 对需求设置不同优先级;
-                        </p>
+                        <p>与不同部门的运营负责人对接, 商议需求, 整理需求, 对需求设置不同优先级;</p>
                     </li>
                     <li>
-                        <p>
-                            - 项目进度跟踪, 测试上线运行, 交付使用, 确保项目保质保量完成。
-                        </p>
+                        <p>项目进度跟踪, 测试上线运行, 交付使用, 确保项目保质保量完成。</p>
                     </li>
                 </ul>
             </div>
@@ -76,24 +70,16 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br/>
                 <ul>
                     <li>
-                        <p>
-                            - 主要负责产品模块的开发, 完成与后端的接口对接, 配合后端的对接联调;
-                        </p>
+                        <p>主要负责产品模块的开发, 完成与后端的接口对接, 配合后端的对接联调;</p>
                     </li>
                     <li>
-                        <p>
-                            - 项目基于 Vue 开发, 使用到了 Axios 与后端数据交互, 部分模块会使用到 ElementUI、ECharts 等工具库来统一各个 业务模块的页面布局和 UI 交互;
-                        </p>
+                        <p>项目基于 Vue 开发, 使用到了 Axios 与后端数据交互, 部分模块会使用到 ElementUI、ECharts 等工具库来统一各个 业务模块的页面布局和 UI 交互;</p>
                     </li>
                     <li>
-                        <p>
-                            - 同产品沟通, 理解需求后, 开发通用列表、表单、详情等公共模板;
-                        </p>
+                        <p>同产品沟通, 理解需求后, 开发通用列表、表单、详情等公共模板;</p>
                     </li>
                     <li>
-                        <p>
-                            - 会使用 Vuex 管理数据, vue-router 实现路由跳转。
-                        </p>
+                        <p>会使用 Vuex 管理数据, vue-router 实现路由跳转。</p>
                     </li>
                 </ul>
                 
@@ -103,14 +89,10 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br/>
                 <ul>
                     <li>
-                        <p>
-                            - 主要从事进度管理和监控, 帮助团队在工作中应用敏捷实践;
-                        </p>
+                        <p>主要从事进度管理和监控, 帮助团队在工作中应用敏捷实践;</p>
                     </li>
                     <li>
-                        <p>
-                            - 量化成员工作任务, 跟踪项目进度, 协调组员合作。
-                        </p>
+                        <p>量化成员工作任务, 跟踪项目进度, 协调组员合作。</p>
                     </li>
                 </ul>
 
@@ -124,7 +106,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             rel="noreferrer"
                             href={'https://www.aethercoder.com/'}
                         >
-                            <h4>www.actionsky.com</h4>
+                            <h4>www.aethercoder.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
@@ -140,19 +122,13 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br />
                 <ul>
                     <li>
-                        <p>
-                            - 主要从事交易所主站基于 React 的若干页面、模块的开发与维护;
-                        </p>
+                        <p>主要从事交易所主站基于 React 的若干页面、模块的开发与维护;</p>
                     </li>
                     <li>
-                        <p>
-                            - 对接、梳理 HTTP 和 WebSocket 接口数据, 使用了 Redux 做数据状态流转;
-                        </p>
+                        <p>对接、梳理 HTTP 和 WebSocket 接口数据, 使用了 Redux 做数据状态流转;</p>
                     </li>
                     <li>
-                        <p>
-                            - 参与了内部基于 Vue 的交易报表系统的开发与维护;
-                        </p>
+                        <p>参与了内部基于 Vue 的交易报表系统的开发与维护。</p>
                     </li>
                 </ul>
             </div>
