@@ -11,6 +11,50 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
+                        <h2>京北方信息技术股份有限公司</h2>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Go Development Engineer</h3>
+                        <b>
+                            <p>Summer 2022</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>项目：U链供应链系统</p>
+                <br />
+                <ul>
+                    <li>
+                        <p>负责后台管理系统的开发，包括用户权限管理、数据管理等功能；</p>
+                    </li>
+                    <li>
+                        <p>实现了数据管理系统，包括数据增删改查、数据导入导出等功能；</p>
+                    </li>
+                    <li>
+                        <p>通过调整代码结构和优化 SQL 查询语句，提高了应用程序的可读性和代码扩展性；</p>
+                    </li>
+                </ul>
+                  
+                <br />
+
+                <p>项目：后台管理系统</p>
+                <br />
+                <ul>
+                    <li>
+                        <p>负责配合后端开发人员，完成页面的交互及接口对接；</p>
+                    </li>
+                    <li>
+                        <p>使用Echarts对订单统计信息进行数据可视化展示；</p>
+                    </li>
+                    <li>
+                        <p>项目进度跟踪，测试上线运行，交付使用，确保项目保质保量完成。</p>
+                    </li>
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
                         <h2>北京筑龙伟业科技有限公司</h2>
                         <a
                             rel="noreferrer"
@@ -21,7 +65,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Project Manager</h3>
+                        <h3>Front-end Development Engineer</h3>
                         <b>
                             <p>Fall 2021 - Spring 2022</p>
                         </b>
@@ -33,20 +77,23 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br />
                 <ul>
                     <li>
-                        <p>在公司传统业务转型升级的背景下, 借鉴互联网知识付费行业的经验, 和团队一起先后完成公司官网改造以及APP版本迭 代、功能更新事宜;</p>
+                        <p>在公司传统业务转型升级的背景下, 借鉴互联网知识付费行业的经验, 和团队一起先后完成公司官网改造以及APP版本迭代、功能更新事宜;</p>
                     </li>
                     <li>
-                        <p>与不同部门的运营负责人对接, 商议需求, 整理需求, 对需求设置不同优先级;</p>
+                        <p>使用Vue.js和Element UI框架开发平台的前端应用，实现了学生选课、在线学习和考试等功能；</p>
                     </li>
                     <li>
-                        <p>项目进度跟踪, 测试上线运行, 交付使用, 确保项目保质保量完成。</p>
+                        <p>设计并实现可复用的UI组件库，提高了开发效率和产品的一致性；</p>
+                    </li>
+                    <li>
+                        <p>协作后端开发人员实现API接口；</p>
                     </li>
                 </ul>
             </div>
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h2>上海流利说信息技术有限公司</h2>
+                        <h2>流利说信息技术有限公司</h2>
                         <a
                             target="_blank"
                             rel="noreferrer"
@@ -56,7 +103,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Frontend Engineer & Product Manager</h3>
+                        <h3>Junior Front-end Development Engineer</h3>
                         <b>
                             <p>Fall 2018 - Summer 2021</p>
                         </b>
@@ -66,69 +113,34 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div className="text-block">
                 <p>公司简介: 全国顶尖的成人英语在线学习平台。</p>
                 <br />
-                <p>前期(2018.10-2020.04)作为前端工程师参与了日志服务系统、DevOps 系统前端功能的开发。日志服务承接了上层各 微服务的日志推送, 提供在线抓取、检索和分析展示等功能;DevOps 系统是一个对产研流程进行自动化监控的平台。</p>
+                <p>日志服务系统: 日志服务承接了上层各微服务的日志推送，提供在线抓取、检索和分析展示等功能</p>
                 <br/>
                 <ul>
                     <li>
-                        <p>主要负责产品模块的开发, 完成与后端的接口对接, 配合后端的对接联调;</p>
+                        <p>主要负责产品模块的开发，完成与后端的接口对接，配合后端的对接联调;</p>
                     </li>
                     <li>
-                        <p>项目基于 Vue 开发, 使用到了 Axios 与后端数据交互, 部分模块会使用到 ElementUI、ECharts 等工具库来统一各个 业务模块的页面布局和 UI 交互;</p>
-                    </li>
-                    <li>
-                        <p>同产品沟通, 理解需求后, 开发通用列表、表单、详情等公共模板;</p>
-                    </li>
-                    <li>
-                        <p>会使用 Vuex 管理数据, vue-router 实现路由跳转。</p>
+                        <p>项目基于 Vue 开发，使用到了 Axios 与后端数据交互，部分模块会使用到 Element UI、ECharts 等工具库来统一各个业 务模块的页面布局和 UI 交互;</p>
                     </li>
                 </ul>
                 
                 <br />
 
-                <p>后期(2020.04-2021.08)作为项目经理, 主要负责了后台运营系统的产品需求对接以及落地工作;</p>
+                <p>DevOps服务管理系统: DevOps 系统是一个对产研流程进行自动化监控的平台</p>
                 <br/>
-                <ul>
-                    <li>
-                        <p>主要从事进度管理和监控, 帮助团队在工作中应用敏捷实践;</p>
-                    </li>
-                    <li>
-                        <p>量化成员工作任务, 跟踪项目进度, 协调组员合作。</p>
-                    </li>
-                </ul>
 
-            </div>
-            <div style={styles.headerContainer}>
-                <div style={styles.header}>
-                    <div style={styles.headerRow}>
-                        <h2>上海码以信息科技有限公司</h2>
-                        <a
-                            target="_blank"
-                            rel="noreferrer"
-                            href={'https://www.aethercoder.com/'}
-                        >
-                            <h4>www.aethercoder.com</h4>
-                        </a>
-                    </div>
-                    <div style={styles.headerRow}>
-                        <h3>Frontend Engineer</h3>
-                        <b>
-                            <p>Summer 2018</p>
-                        </b>
-                    </div>
-                </div>
-            </div>
-            <div className="text-block">
-                <p>公司简介:初创型加密货币管理与交易平台。</p>
-                <br />
                 <ul>
                     <li>
-                        <p>主要从事交易所主站基于 React 的若干页面、模块的开发与维护;</p>
+                        <p>同产品沟通，理解需求后，开发通用列表、表单、详情等公共模板;</p>
                     </li>
                     <li>
-                        <p>对接、梳理 HTTP 和 WebSocket 接口数据, 使用了 Redux 做数据状态流转;</p>
+                        <p>接手项目后, 使用到了 mixins 抽离重复的业务逻辑代码;</p>
                     </li>
                     <li>
-                        <p>参与了内部基于 Vue 的交易报表系统的开发与维护。</p>
+                        <p>使用 Vuex 管理数据，vue-router 实现路由跳转;</p>
+                    </li>
+                    <li>
+                        <p>使用 vuepress 构建项目说明文档网页，编写组件使用示例代码，撰写使用说明文档;</p>
                     </li>
                 </ul>
             </div>

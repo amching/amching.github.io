@@ -1,6 +1,6 @@
 import React from 'react';
 import printer from '../../assets/resume/printer.gif';
-import Resume from '../../assets/resume/Wenching_2022_Resume.pdf';
+import Resume from '../../assets/resume/Wenching_Resume.pdf';
 
 export interface ResumeDownloadProps {
     altText?: string;
